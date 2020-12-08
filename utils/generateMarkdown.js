@@ -2,7 +2,7 @@
 function generateMarkdown(data) {
   return `# ${answers.title}
 
-   <h1 align="center">${answers.projectTitle} 👋</h1>
+   <h1 align="center">${answers.projectTitle} </h1>
   
   ![badge](https://img.shields.io/badge/license-${answers.license}-green)<br />
 

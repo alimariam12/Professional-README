@@ -4,6 +4,7 @@ const util = require("util");
 
 // Internal modules
 const generateMarkdown = require("./utils/generateMarkdown");
+
 // array of questions for user
 const questions = [
   {
