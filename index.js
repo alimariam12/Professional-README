@@ -19,7 +19,7 @@ const questions = [
   },
   {
     type: "input",
-    name: "installations",
+    name: "installation",
     message: "Please include the installations that were used in this project",
   },
   {
