@@ -19,8 +19,8 @@
   - Open terminal on VSC and run `npm install`. When you have the prompts writter you will then run `node index.js` to answer the prompts.
   ## Usage
   Screenshots of application
-  https://user-images.githubusercontent.com/71665063/101692787-542fdd00-3a36-11eb-958a-c12df27da610.png
-  https://user-images.githubusercontent.com/71665063/101692855-6b6eca80-3a36-11eb-82ee-3e6bbda3f577.png
+  <img width="1437" alt="Screen Shot 2020-12-09 at 3 42 36 PM" src="https://user-images.githubusercontent.com/71665063/101692955-92c59780-3a36-11eb-9534-a818b00ad7c1.png">
+  <img width="1440" alt="Screen Shot 2020-12-09 at 3 41 58 PM" src="https://user-images.githubusercontent.com/71665063/101692855-6b6eca80-3a36-11eb-82ee-3e6bbda3f577.png">
   
   ## License
   ![badge](https://img.shields.io/badge/license-MIT-green)
