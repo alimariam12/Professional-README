@@ -27,13 +27,13 @@
   <br />
   This application is covered by the MIT license. 
   ## Contributions
-  
+  Thank you to my tutor, Eric Wallen, for helping me with this assignment!
   ## Tests
-  
+  N/A
   ## Questions
-  undefined<br />
-  <br />
-  You can find me on GitHub: [alimariam12](https://github.com/alimariam12)<br />
-  <br />
+
+  You can find me on GitHub: 
+  [alimariam12](https://github.com/alimariam12)
+  
   ✉️ Email me: alim12@csp.edu
       
