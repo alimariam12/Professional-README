@@ -1,8 +1,8 @@
-# Professional REAME.md
+# Professional README.md
 
-   <h1 align="center">Professional REAME.md </h1>
+   <h1 align="center">Professional README.md </h1>
   
-  ![badge](https://img.shields.io/badge/license-Apache-green)<br />
+  ![badge](https://img.shields.io/badge/license-MIT-green)<br />
 
   ## Description
    
@@ -19,9 +19,9 @@
   ## Usage
   
   ## License
-  ![badge](https://img.shields.io/badge/license-Apache-green)
+  ![badge](https://img.shields.io/badge/license-MIT-green)
   <br />
-  This application is covered by the Apache license. 
+  This application is covered by the MIT license. 
   ## Contributions
   
   ## Tests
