@@ -1,4 +1,6 @@
-   <h1 align="center">Professional README.md </h1>
+# Professional REAME.md
+
+   <h1 align="center">Professional REAME.md </h1>
   
   ![badge](https://img.shields.io/badge/license-Apache-green)<br />
 
@@ -29,5 +31,5 @@
   <br />
   You can find me on GitHub: [undefined](https://github.com/undefined)<br />
   <br />
-  ✉️ Email me: 
+  ✉️ Email me: alim12@csp.edu
       

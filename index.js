@@ -68,6 +68,29 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then((data) => {
     let markDown = generateMarkdown(data);
+    let license = "";
+    let licenses = "";
+
+    if (data.license == "MIT") {
+      licenses =
+        "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+    }
+    if (data.license == "CreativeCommons") {
+      licenses =
+        "[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)";
+    }
+    if (data.license == "GNU") {
+      licenses =
+        "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
+    }
+    if (data.license == "Mozilla") {
+      licenses =
+        "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
+    }
+    if (data.license == "ISC") {
+      licenses =
+        "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)";
+    }
     console.log(markDown);
     writeToFile("README.md", markDown);
     // console.log("Success! Your README.md file has been generated");
