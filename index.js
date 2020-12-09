@@ -1,5 +1,5 @@
 const inquirer = require("inquirer");
-const fileSystem = require("fs");
+const fs = require("fs");
 const util = require("util");
 
 // Internal modules
@@ -67,7 +67,10 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
   inquirer.prompt(questions).then((data) => {
-    console.log("Success! Your README.md file has been generated");
+    let markDown = generateMarkdown(data);
+    console.log(markDown);
+    writeToFile("README.md", markDown);
+    // console.log("Success! Your README.md file has been generated");
   });
 }
 

@@ -1,13 +1,13 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${answers.title}
+  return `# ${data.title}
 
-   <h1 align="center">${answers.projectTitle} </h1>
+   <h1 align="center">${data.title} </h1>
   
-  ![badge](https://img.shields.io/badge/license-${answers.license}-green)<br />
+  ![badge](https://img.shields.io/badge/license-${data.license}-green)<br />
 
   ## Description
-   ${answers.description}
+   ${data.description}
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
@@ -17,23 +17,23 @@ function generateMarkdown(data) {
   - [Tests](#tests)
   - [Questions](#questions)
   ## Installation
-  ${answers.installation}
+  ${data.installation}
   ## Usage
-  ${answers.usage}
+  ${data.usage}
   ## License
-  ![badge](https://img.shields.io/badge/license-${answers.license}-green)
+  ![badge](https://img.shields.io/badge/license-${data.license}-green)
   <br />
-  This application is covered by the ${answers.license} license. 
+  This application is covered by the ${data.license} license. 
   ## Contributions
-  ${answers.contributions}
+  ${data.contributions}
   ## Tests
-  ${answers.tests}
+  ${data.tests}
   ## Questions
-  ${answers.questions}<br />
+  ${data.questions}<br />
   <br />
-  You can find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
+  You can find me on GitHub: [${data.username}](https://github.com/${data.username})<br />
   <br />
-  ✉️ Email me: ${answers.email}
+  ✉️ Email me: ${data.email}
       `;
 }
 
